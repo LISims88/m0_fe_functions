@@ -10,13 +10,19 @@
 
 
 "Hello World".includes("Hello");
-
+// .includes is a built-in Method that is tesing on the string value the phrase Hello World, having Hello within the string. 
+//Because "Hello" is in the string this produces the return value of "true"
 
 "Hello World".endsWith("Hello");
+
+//.endsWith is a built-in method that is testing the string value for "Hello World", and whether it ends with the string "Hello"
+//Because the string does not end with "Hello", the Return value is "False"
 
 
 "Hello World".endsWith("rld");
 
+//.endsWith is a built-in method that is testing the string value for "Hello World" for the last three letters of "World". 
+//Though this is not the whole word, the build-in still can preform the function and produces a return value of "true"
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
