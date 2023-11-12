@@ -8,23 +8,49 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+//function askForName() { console.log("Hello, what is your name?") }
+ 
+function askForName() {
+return "Hello, what is your name?"
+};
 
-askForName()
+console.log(askForName("Hi"));
+
+// For this example I corrected the code so that it follows the syntax of function coding. 
+// I also fixed for the void by putting a string placeholder of "Hi".
 
 
 // EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
+//function addThreeNums(first, second, third) {
+//var sum = first + second + third
+//return sum;
+//      }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+//addThreeNums(1, 2, 3);
+//addThreeNums(4, 2, 7);
+
+function addThreeNums(num1,num2,num3){
+  var sum = num1 + num2 + num3;
+  return sum;
+}
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+
+// For this expample i corrected the format for the console code. 
+//By adding the addThreeNums to console.log this allowed the code to complete it's task. 
 
 
 // EX 3:
-func makeFreshPesto(){
+//func makeFreshPesto(){
+  //console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+  //console.log("Pulse basil and pine nuts");
+  //console.log("Add garlic and cheeses");
+  //console.log("Slowly pour in oil");
+  //console.log("Season");    }
+
+//makeFreshPesto();
+
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -33,6 +59,7 @@ func makeFreshPesto(){
 
 makeFreshPesto();
 
+// Corrected the func variable to function by doing so this allowed JavaScript to run the code as func wasn't a known variable and caused errors.
 
 //  EX 4:
 function average(num1, num2) 
