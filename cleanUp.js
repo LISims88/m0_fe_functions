@@ -62,10 +62,22 @@ makeFreshPesto();
 // Corrected the func variable to function by doing so this allowed JavaScript to run the code as func wasn't a known variable and caused errors.
 
 //  EX 4:
-function average(num1, num2) 
-  {
+//function average(num1, num2) 
+  //{
+//var sum = num1 + num2;
+    //var avg = sum / 2;
+
+//return avg
+ // }
+
+ function average(num1, num2) 
+ {
 var sum = num1 + num2;
-    var avg = sum / 2;
+   var avg = sum / 2;
 
 return avg
-  }
+ }
+
+console.log(average(10, 20));
+
+// For this example, I gave the code a command so that it could produce a return value, to ensure that the code works.
