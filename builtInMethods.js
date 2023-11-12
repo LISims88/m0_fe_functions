@@ -40,9 +40,41 @@ var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
 
+// In this example, the return value replaces the the string "sloth" with "panda".
+// The console.log prints out "panda is my favorite".
+
+var animalFavorite = "sloth is my favorite!"
+
+console.log(animalFavorite.replace("sloth", "panda");
+
+
+// In this example, the return value changes the case of the string to uppercase.
+// The console.log prints out "HANGMAN"
+
+var songFavorite = "Hangman"
+
+console.log(songFavorite.toUpperCase);
+
 
 // SECTION 3: Calling methods on variables assigned to arrays.
 // Declare 2 variables assigned to arrays.
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+// In this Example the variable of songs was defined to an array of various songs. These songs were in no particular order. 
+// The method called for the array to be sorted from last to first.
+// The console.log printed the songs 'Bitter', 'Mine', 'Sugar', 'Rain', 'Hangman'
+
+var songs = ['Hangman', 'Rain', 'Sugar', 'Mine', 'Bitter'];
+songs.sort();
+console.log(songs);
+
+
+
+//In this example, the variable of cups was defined to an array of various cup brands.
+// the method called to see if the cup brand 'Meoky' was present in the array.
+// The console.log printed out the return value of true verifying that the brand 'Meoky' was present in the array.
+var cups= ['Stanley', 'Yeti', 'Mossyoak', 'Meoky', 'Rtic']
+
+console.log(cups.includes('Meoky'))
