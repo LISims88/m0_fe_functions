@@ -43,7 +43,7 @@ console.log(firstName.startsWith("J"));
 // In this example, the return value replaces the the string "sloth" with "panda".
 // The console.log prints out "panda is my favorite".
 
-var animalFavorite = "sloth is my favorite!"
+var animalFavorite = "sloth is my favorite!";
 
 console.log(animalFavorite.replace("sloth", "panda");
 
@@ -77,4 +77,4 @@ console.log(songs);
 // The console.log printed out the return value of true verifying that the brand 'Meoky' was present in the array.
 var cups= ['Stanley', 'Yeti', 'Mossyoak', 'Meoky', 'Rtic']
 
-console.log(cups.includes('Meoky'))
+console.log(cups.includes('Meoky'));
